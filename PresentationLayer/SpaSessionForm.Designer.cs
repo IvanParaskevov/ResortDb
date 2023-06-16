@@ -74,6 +74,7 @@ namespace PresentationLayer
             this.Create_Btn.TabIndex = 9;
             this.Create_Btn.Text = "Create";
             this.Create_Btn.UseVisualStyleBackColor = true;
+            this.Create_Btn.Click += new System.EventHandler(this.Create_Btn_Click);
             // 
             // textBox1
             // 
